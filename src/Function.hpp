@@ -11,14 +11,14 @@ public:
 // ReLu : Sigmoid
 class ReLU : Function {
 public:
-    double forward(x);
-    double backward(gy);
+    double forward(double x);
+    double backward(double gy);
 };
 
 class Sigmoid : Function {
 public:
-    double forward(x);
-    double backward(gy);
+    double forward(double x);
+    double backward(double gy);
 };
 
 // loss function
